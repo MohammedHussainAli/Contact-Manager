@@ -1,0 +1,230 @@
+.no_contact_text {
+  margin-top: 1rem;
+  background-color: #171717;
+  width: 97%;
+  color: white;
+  padding: 50px;
+  border-radius: 10px;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.2;
+}
+.ceate_button_div {
+  padding: 25px;
+  text-align: center;
+}
+.radio_btn {
+  padding: 10px;
+}
+.create_button {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 19px;
+  padding: 15px;
+  width: 200px;
+  color: rgb(0, 0, 0);
+  background-color: #ee564f;
+  border: 5px solid transparent;
+  transition: 0.2s ease;
+  border-radius: 50px;
+}
+.create_button:hover {
+  font-weight: 700;
+  color: #ee564f;
+  background-color: white;
+  transform: scale(1.1);
+  border: 5px solid rgb(0, 0, 0);
+}
+.card {
+  background-color: #f71735;
+  background-image: linear-gradient(147deg, #f71735 0%, #db3445 74%);
+  border-radius: 22px;
+  transition: all 0.3s;
+  margin-right: 2rem;
+}
+.card:hover {
+  box-shadow: 0 0 30px 1px rgba(137, 196, 244, 0.3);
+}
+.card .card2 {
+  border-radius: 0;
+  transition: all 0.2s;
+}
+.card .card2:hover {
+  transform: scale(0.98);
+  border-radius: 20px;
+}
+.card .card2 .form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  gap: 10px;
+  padding: 0.4rem 2rem;
+  background-color: #171717;
+  border-radius: 20px;
+}
+.card .card2 .form #heading,
+.card .card2 .form i {
+  color: #77eed4;
+}
+.card .card2 .form #heading {
+  text-align: center;
+  margin: 2rem;
+  font-size: 1.75rem;
+}
+.card .card2 .form .field,
+.card .card2 .form .btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+  border-radius: 25px;
+  outline: none;
+}
+.card .card2 .form .field {
+  padding: 0.6em;
+  border: none;
+  color: white;
+  background-color: #171717;
+  box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
+}
+.card .card2 .form .field .input-field {
+  background: none;
+  border: none;
+  outline: none;
+  width: 100%;
+  color: #0fffc8;
+}
+.card .card2 .form .btn .button,
+.card .card2 .form .button-password {
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  transition: 0.4s ease-in-out;
+  background-color: #f71735;
+  background-image: linear-gradient(147deg, #f71735 0%, #db3445 74%);
+  color: #000;
+  word-break: break-all;
+  cursor: pointer;
+}
+.card .card2 .form .btn .button {
+  padding: 0.5rem 2.15rem;
+}
+.card .card2 .form .btn .button:hover {
+  background-image: linear-gradient(163deg, #a00000fa 0%, #d10050 100%);
+  color: #fff;
+}
+
+table {
+  /* width: 700px; */
+  margin: 20px auto;
+  background-color: #eeeeee;
+}
+
+table,
+th,
+td {
+  border: 1px solid white;
+  border-collapse: collapse;
+  padding: 15px;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 20px;
+}
+
+table th {
+  background-color: #404040;
+  color: white;
+}
+
+img {
+  border: 1px solid #b7b6b6;
+}
+
+button {
+  font-size: 18px;
+  padding: 8px;
+  text-transform: capitalize;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.button_one {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+  text-transform: capitalize;
+  border-style: none;
+  border-width: 0px;
+  border-color: initial;
+  border-radius: 50px;
+  background: #000;
+  width: 80px;
+  padding: 10px;
+  margin-right: 10px;
+}
+.status {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5em;
+}
+.status_out {
+  color: #fe3c3c;
+  font-weight: 700;
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+  margin-left: 1rem;
+}
+.radio_btn {
+  margin-right: 0.5em;
+  width: 1.5em;
+  height: 1.5em;
+}
+.button_three {
+  background: #f7be2d;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+  text-transform: capitalize;
+  border-style: none;
+  border-width: 0px;
+  border-color: initial;
+  border-radius: 50px;
+  width: 80px;
+  padding: 10px;
+  margin-right: 10px;
+}
+.button_two {
+  background: #ee564f;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+  text-transform: capitalize;
+  border-style: none;
+  border-width: 0px;
+  border-color: initial;
+  border-radius: 50px;
+  width: 80px;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.bottom {
+  border-bottom: 2px solid #009688;
+}
